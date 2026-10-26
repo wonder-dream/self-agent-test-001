@@ -1,0 +1,15 @@
+{
+  "timezone": "Asia/Shanghai",
+  "peakMultiplier": 2,
+  "weekdays": [1, 2, 3, 4, 5],
+  "windows": [
+    [9, 12],
+    [14, 18]
+  ],
+  "offPeakCnyPerMillion": {
+    "cacheHit": "0.03",
+    "cacheMiss": "1.10",
+    "output": "4.40"
+  },
+  "source": "English Flash off-peak list at https://api-docs.deepseek.com/quick_start/pricing converted at 7.30 CNY per USD and rounded up. Weekday peak hours follow the Beijing windows and double the price. This file is an estimate used to stop before the wallet limit; adjust it when an invoice disagrees."
+}
